@@ -47,7 +47,7 @@ while True:
 		# loop over the (x, y)-coordinates from our dlib shape
 		# predictor model draw them on the image
 		for (sX, sY) in shape:
-			cv2.circle(frame, (sX, sY), 1, (255, 0, 0), -1)
+			cv2.circle(frame, (sX, sY), 1, (0, 0, 255), -1)
 			
     # show the frame
 	cv2.imshow("Frame", frame)
